@@ -78,7 +78,6 @@
                     <asp:ListItem Text="Mexicali" Value="track_mexicali"></asp:ListItem>
                     <asp:ListItem Text="Ensenada" Value="track_ensenada"></asp:ListItem>
                 </asp:CheckBoxList> 
-               
                 <h2>Go Kart Extras:</h2>
                 <asp:CheckBoxList runat="server" ID="kart_extras">
                     <asp:ListItem Text="T-Shirts" Value="extras_tshirts"></asp:ListItem>
@@ -91,7 +90,6 @@
                 <asp:ValidationSummary runat="server" ShowSummary ="true" />
             </section>
             <section id ="bookingsum" runat ="server">
-
             </section>
             <section>
                 <asp:Button runat="server" ID="submit" text="Submit"/>
