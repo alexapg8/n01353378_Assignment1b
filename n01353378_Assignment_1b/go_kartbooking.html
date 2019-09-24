@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Alexa's Go Kart Booking</title>
+</head>
+<body>
+    <form method="GET" action="https://postman-echo.com/get">
+        <section>
+            <h1>Alexa's Go Kart Booking</h1>
+            <p>Please fill out this form!</p>
+            <h2>First Name:</h2>
+            <input type="text" id="client_first_name" name="client_first_name" />
+            <h2>Last Name:</h2>
+            <input type="text" id="client_last_name" name="client_last_name" />
+        </section>
+        <section>
+            <h2>Email:</h2>
+            <input type="text" id="client_email" name="client_email" />
+            <h2>Phone Number:</h2>
+            <input type="number" id="client_phone_num" name="client_phone_num" />
+        </section>
+        <section>
+            <h2>Date:</h2>
+            <input type="date" id="event_date" name="event_date" />
+        </section>
+        <section>
+            <h2>Time:</h2>
+            <select id="event_time" name="event_time">
+                <option value="1000">10:00 a.m.</option>
+                <option value="1100">11:00 a.m.</option>
+                <option value="1200">12:00 p.m.</option>
+                <option value="1300">1:00 p.m.</option>
+                <option value="1400">2:00 p.m.</option>
+                <option value="1500">3:00 p.m.</option>
+                <option value="1600">4:00 p.m.</option>
+                <option value="1700">5:00 p.m.</option>
+                <option value="1800">6:00 p.m.</option>
+            </select>
+        </section>
+        <section>
+            <h2>Event Type:</h2>
+            <div>
+                <input type="radio" id="event_1" name="event_type" value="event_birthday" /><label for="event_1">Birthday Event</label>
+            </div>
+            <div>
+                <input type="radio" id="event_2" name="event_type" value="event_school" /><label for="event_2">School Event</label>
+            </div>
+            <div>
+                <input type="radio" id="event_3" name="event_type" value="event_company" /><label for="event_3">Company Event</label>
+            </div>
+            <div>
+                <input type="radio" id="event_4" name="event_type" value="event_other" /><label for="event_4">Other Event</label>
+            </div>
+            <h2>Guest Number:</h2>
+            <div>
+                <input type="radio" id="guest_1" name="guest_num" value="guest_1t4" /><label for="guest_1">1-4</label>
+            </div>
+            <div>
+                <input type="radio" id="guest_2" name="guest_num" value="guest_5t8" /><label for="guest_2">5-8</label>
+            </div>
+            <div>
+                <input type="radio" id="guest_3" name="guest_num" value="guest_9t12" /><label for="guest_3">9-12</label>
+            </div>
+            <div>
+                <input type="radio" id="guest_4" name="guest_num" value="guest_13t16" /><label for="guest_4">13-16</label>
+            </div>
+        </section>
+        <section>
+            <h2>Go Kart Track:</h2>
+            <div>
+                <input type="checkbox" id="track_1" name="kart_track" value="track_rosarito" /><label for="track_1">Rosarito</label>
+            </div>
+            <div>
+                <input type="checkbox" id="track_2" name="kart_track" value="track_tijuana" /><label for="track_2">Tijuana</label>
+            </div>
+            <div>
+                <input type="checkbox" id="track_3" name="kart_track" value="track_mexicali" /><label for="track_3">Mexicali</label>
+            </div>
+            <div>
+                <input type="checkbox" id="track_4" name="kart_track" value="track_ensenada" /><label for="track_4">Ensenada</label>
+            </div>
+            <h2>Go Kart Extras:</h2>
+            <div>
+                <input type="checkbox" id="extras_1" name="kart_extras" value="extras_tshirts" /><label for="extras_1">T-Shirts</label>
+            </div>
+            <div>
+                <input type="checkbox" id="extras_2" name="kart_extras" value="extras_pizzadrinks" /><label for="extras_2">Pizza+Drinks</label>
+            </div>
+            <div>
+                <input type="checkbox" id="extras_3" name="kart_extras" value="extras_photos" /><label for="extras_3">Photos</label>
+            </div>
+            <div>
+                <input type="checkbox" id="extras_4" name="kart_extras" value="extras_video" /><label for="extras_4">Video</label>
+            </div>
+        </section>
+        <section>
+            <input type="submit" value="Submit" />
+        </section>
+    </form>
+</body>
+</html>
